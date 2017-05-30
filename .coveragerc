@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/hislip_server
+   */site-packages/hislip_server
+
+[run]
+branch = true
+source =
+    hislip_server
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
